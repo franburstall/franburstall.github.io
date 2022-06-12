@@ -21,7 +21,7 @@
 title: Transitive Nightfall of Diamonds
 email: fran.burstall@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Test of blogging with jekyll to see if this works for me. 
+  Random thoughts of an ageing mathematician
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
