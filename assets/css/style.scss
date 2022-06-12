@@ -1,0 +1,130 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+#my-header {
+  z-index: 100;
+  left:0;
+  top: 0px;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  background: url(../images/nav-bg.gif) #353535;
+  border-bottom: 4px solid #434343;
+  box-shadow: 0px 1px 3px rgba(0,0,0,.25);
+
+  nav {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin: 6px auto;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      float: right;
+
+      li {
+        font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        list-style: none;
+        display: inline;
+        color: white;
+        line-height: 50px;
+        text-shadow: 0px 1px 0px rgba(0,0,0,.2);
+        font-size: 26px;
+	padding-left: 30px;
+
+        a {
+          color: white;
+          
+        }
+      }
+    }
+  }
+}
+
+section {
+  max-width:650px;
+  padding: 30px 0px 50px 0px;
+  margin: 20px 0;
+  margin-top: 70px;
+
+  #title {
+    border: 0;
+    outline: none;
+    margin: 0 0 50px 0;
+    padding: 0 0 5px 0;
+
+    h1 {
+      font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      font-size: 40px;
+      text-align: center;
+      line-height: 36px;
+    }
+
+    p {
+      color: #d7cfbe;
+      font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    .credits {
+      font-size: 11px;
+      font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      color: #696969;
+      margin-top: -10px;
+
+      &.left {
+        float: left;
+      }
+
+      &.right {
+        float: right;
+      }
+    }
+
+  }
+}
+@media print, screen and (max-width: 480px) {
+
+  #my-header {
+    margin-top: -20px;
+  }
+
+  section {
+    margin-top: 40px;
+  }
+  nav {
+    display: none;
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+
+  #title {
+    .credits {
+      display: block;
+      width: 100%;
+      line-height: 30px;
+      text-align: center;
+
+      .left {
+        float: none;
+        display: block;
+      }
+
+      .right {
+        float: none;
+        display: block;
+      }
+    }
+  }
+}
