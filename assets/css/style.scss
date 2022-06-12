@@ -93,6 +93,12 @@ section {
 
   }
 }
+
+#footer {
+    .right {
+	float: right;}
+}
+
 @media print, screen and (max-width: 480px) {
 
   #my-header {
