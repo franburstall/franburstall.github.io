@@ -107,6 +107,11 @@ section {
   }
 }
 
+code {
+  margin: 0;
+  padding: 0;
+  border-radius: 2px;
+}
 @media print, screen and (max-width: 720px) {
 
   #title {
