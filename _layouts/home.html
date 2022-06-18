@@ -22,7 +22,9 @@ layout: default
           </a>
         </h3>
         {%- if site.show_excerpts -%}
+	<h4>
           {{ post.excerpt }}
+	</h4>
         {%- endif -%}
       </li>
       {%- endfor -%}
