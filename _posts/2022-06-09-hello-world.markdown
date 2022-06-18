@@ -2,6 +2,7 @@
 layout: post
 title:  "Hello world!"
 date:   2022-06-09 22:22:29 +0100
+excerpt: My first blog
 ---
 I have never had a blog before and it took pretty much the
 whole weekend to get it working and looking nice.  But it
