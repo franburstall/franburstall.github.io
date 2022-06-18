@@ -3,6 +3,7 @@ layout: post
 title: Building this blog
 excerpt: I thought this would be easy
 usemathjax: true
+tags: jekyll
 ---
 Use `jekyll` they said; you'll be up and running in no time!
 Well, four days later, I have a working blog and I will
