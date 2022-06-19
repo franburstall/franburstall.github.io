@@ -20,7 +20,8 @@ Comments (if anyone ever reads any of this).
     [this](https://longqian.me/2017/02/09/github-jekyll-tag/)
     looks promising with an implementation
     [here](https://github.com/sergodeeva/sergodeeva.github.io).
-    [DONE: it was easier than expected]
+    [DONE: it was easier than expected---see next [post]({%
+    post_url 2022-06-19-jekyll-tags-2022 %}).]
 -   Excerpts on the home page [DONE]
 
 
