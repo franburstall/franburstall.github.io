@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyll wish list
-excerpt: Next steps
+description: Next steps
 date: 2022-06-13 22:43:16 +0100
 tags: jekyll
 ---
@@ -22,7 +22,7 @@ Comments (if anyone ever reads any of this).
     [here](https://github.com/sergodeeva/sergodeeva.github.io).
     [DONE: it was easier than expected---see next [post]({%
     post_url 2022-06-19-jekyll-tags-2022 %}).]
--   Excerpts on the home page [DONE]
+-   Descriptions on the home page [DONE]
 
 
 

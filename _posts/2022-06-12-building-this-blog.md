@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building this blog
-excerpt: I thought this would be easy
+description: I thought this would be easy
 usemathjax: true
 tags: jekyll
 ---

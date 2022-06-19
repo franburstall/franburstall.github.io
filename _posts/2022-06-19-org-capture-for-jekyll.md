@@ -2,7 +2,7 @@
 layout: post
 title: Org capture for Jekyll posts
 tags: emacs jekyll
-excerpt: Org capture is your friend, even when writing markdown
+description: Org capture is your friend, even when writing markdown
 ---
 
 Jekyll is kind of particular about the format of filenames
