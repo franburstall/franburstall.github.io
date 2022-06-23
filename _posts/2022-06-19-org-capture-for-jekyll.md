@@ -5,6 +5,10 @@ tags: emacs jekyll
 description: Org capture is your friend, even when writing markdown
 ---
 
+*Update*: Look [here]({% post_url
+2022-06-23-blogging-with-emacs-revisited %}) for a better
+take on this.
+
 Jekyll is kind of particular about the format of filenames
 for blog posts.  It must be of the form:
 ```
