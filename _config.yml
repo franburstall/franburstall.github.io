@@ -37,6 +37,14 @@ plugins:
 
 show_descriptions: true
 
+defaults:
+  - scope:
+      type: posts
+      path: _posts
+    values:
+      is_post: true
+      layout: post
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
